@@ -21,7 +21,7 @@ const Hero = () => {
                         </svg>
                     </div>
 
-                    <p className="text-brand-pink-1 font-satoshi-variable text-base font-normal leading-normal">An Ape in clothes in the music studio.</p>
+                    <p className="text-brand-pink-1 text-base font-normal leading-normal">An Ape in clothes in the music studio.</p>
                 </div>
             </div>
 

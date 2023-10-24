@@ -11,7 +11,10 @@ export default {
       },
       colors: {
         'brand-off-white': '#EEEEF0',
-        '--brand-pink-1': '#ffd0f2',
+        'brand-pink-1': '#FFD0F2',
+        'brand-pink-7': '#EC27B6',
+        'brand-green': '#2BCD94',
+        'brand-light-purple': '#7B71E2'
 
       },
     },
