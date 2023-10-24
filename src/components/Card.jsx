@@ -65,6 +65,8 @@ const Card = ({ background, shadow, text, price }) => {
 Card.propTypes = {
     background: PropTypes.string.isRequired,
     shadow: PropTypes.string.isRequired,
+    text: PropTypes.string.isRequired,
+    price: PropTypes.string.isRequired,
 }
 
 export default Card;
