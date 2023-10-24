@@ -14,7 +14,8 @@ export default {
         'brand-pink-1': '#FFD0F2',
         'brand-pink-7': '#EC27B6',
         'brand-green': '#2BCD94',
-        'brand-light-purple': '#7B71E2'
+        'brand-light-purple': '#7B71E2',
+        'brand-purple-6': '#0B031E'
 
       },
     },
