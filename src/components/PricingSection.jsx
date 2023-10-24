@@ -1,14 +1,11 @@
 import Card from "./Card"
+import HeaderComponent from "./HeaderComponent"
 
 const PricingSection = () => {
     return (
         <div className="flex flex-col items-center py-16 px-24 gap-8 self-stretch">
             {/* Pricing TExt */}
-            <div className="flex flex-col justify-center items-center p-6 gap-4 self-stretch">
-                {/* Here goes the text */}
-                <h1 className="text-brand-off-white text-5xl font-extrabold leading-normal">Flexible Pricing for Everyone</h1>
-                <p className="text-brand-off-white text-center text-lg font-normal leading-normal ">Unlock Your Creative Potential with Our Tailored Plans</p>
-            </div>
+            <HeaderComponent header="Flexible Pricing for Everyone" subheader='Unlock Your Creative Potential with Our Tailored Plans' />
 
             {/* Pricing Menu */}
             <div className="flex p-6 justify-between items-start self-stretch">

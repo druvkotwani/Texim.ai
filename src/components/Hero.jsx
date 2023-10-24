@@ -1,3 +1,4 @@
+import HeaderComponent from "./HeaderComponent"
 
 const Hero = () => {
     return (
@@ -5,10 +6,8 @@ const Hero = () => {
 
             {/* Hero Text */}
             <div className="flex flex-col justify-center items-center p-6 gap-4 self-stretch">
-                <h1 className='text-brand-off-white text-[54px] font-extrabold leading-normal'>
-                    Bring Your Words to Life!
-                </h1>
-                <p className="text-brand-off-white text-center text-lg font-normal leading-normal ">Transform your text into stunning, AI-generated images in seconds. No design skills required.</p>
+                <HeaderComponent header="Bring Your Words to Life!" subheader='Transform your text into stunning, AI-generated images in seconds. No design skills required.' />
+
             </div>
 
             {/* Hero Ai Bar */}
