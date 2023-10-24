@@ -33,7 +33,7 @@ const Hero = () => {
                     id="Ellipse"
                     className="blur-[100px] w-2/5 h-[504px] bg-[#c00dc8] absolute top-40 left-[294px] rounded-[50%]"
                 />
-                <img src="earth.png" className="relative" />
+                <img src="assets/earth.png" className="relative" />
             </div>
 
         </div>
