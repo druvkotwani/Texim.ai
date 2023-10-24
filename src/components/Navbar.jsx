@@ -1,4 +1,5 @@
 import Logo from "./Logo"
+import ButtonPink from "./ButtonPink"
 const Navbar = () => {
     return (
         <nav className="flex p-0 px-[24px] justify-center items-start self-stretch ">
@@ -7,8 +8,8 @@ const Navbar = () => {
                     <Logo />
                     <ul className="flex items-center gap-8">
                         <li className="text-brand-off-white text-base font-normal"><a href="/">Pricing</a></li>
-                        <li className="text-brand-off-white text-base font-normal"><a href="/">Pricing</a></li>
-                        <li className="text-brand-off-white text-base font-normal"><a href="/">Pricing</a></li>
+                        <li className="text-brand-off-white text-base font-normal"><a href="/">About Us</a></li>
+                        <ButtonPink text="Join Waiting List" />
                     </ul>
                 </div>
             </div>

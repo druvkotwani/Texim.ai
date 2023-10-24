@@ -9,7 +9,7 @@ const Logo = () => {
                 <path fillRule="evenodd" clipRule="evenodd" d="M9.00023 0.520813L0.000732422 15.9999H17.9349L17.9385 15.9927L26.8804 0.520813H9.00023Z" fill="#F65CCC" />
                 <path fillRule="evenodd" clipRule="evenodd" d="M26.9382 0.520813L17.9999 15.9999L26.9382 31.4791L35.9409 15.9999L26.9382 0.520813Z" fill="#FC94E0" />
             </svg>
-            <h1 className='text-2xl font-bold'>Ved Library</h1>
+            <h1 className='text-2xl font-bold'>Texim.ai</h1>
         </div>
     )
 }
