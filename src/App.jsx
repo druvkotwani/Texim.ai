@@ -3,6 +3,7 @@ import "./App.css";
 import Hero from "./components/Hero";
 import PricingSection from "./components/PricingSection";
 import CallToAction from "./components/CallToAction";
+import Copyright from "./components/Copyright";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Hero />
       <PricingSection />
       <CallToAction />
+      <Copyright />
     </>
   )
 }
